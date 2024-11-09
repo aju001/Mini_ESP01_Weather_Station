@@ -69,3 +69,7 @@ Steps to Flash:
 
 # 🚀 Ready to Go!
 Once everything is set up and powered on, your Mini ESP-01 Weather Station will start collecting and displaying weather data on the OLED screen. You can also monitor it remotely via cloud services!
+
+https://youtu.be/XqRubj9YDK4
+
+https://youtu.be/IYzyxOtpNbs
