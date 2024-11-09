@@ -2,7 +2,9 @@
 An ultra-compact, low-power weather station using the ESP-01 module that gathers and transmits environmental data such as temperature, humidity, and pressure. Display the data on a local OLED screen or send it to a cloud service for remote monitoring.
 
 <div align="center">
-  <img src="doc/WeatherStation.jpeg" width="400" alt="WeatherStation" />
+  <a href="https://youtu.be/XqRubj9YDK4" target="_blank">
+    <img src="doc/WeatherStation.jpeg" width="400" alt="WeatherStation" />
+  </a>
 </div>
 
 # 🔥 Key Features ✨
