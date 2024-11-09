@@ -1,10 +1,9 @@
 # 🌦️ Mini ESP-01 Weather Station 🌦️
 An ultra-compact, low-power weather station using the ESP-01 module that gathers and transmits environmental data such as temperature, humidity, and pressure. Display the data on a local OLED screen or send it to a cloud service for remote monitoring.
 
-#
 <div align="center">
-  <a href="https://ibb.co/4wyvT96565j"><img src="doc/WeatherStation.jpeg""width="400" height="400"/>
-   
+  <img src="doc/WeatherStation.jpeg" width="400" alt="WeatherStation" />
+</div>
 
 # 🔥 Key Features ✨
 - 📊 Environmental Monitoring: Measure temperature, humidity, and atmospheric pressure.
@@ -12,7 +11,6 @@ An ultra-compact, low-power weather station using the ESP-01 module that gathers
 - 🌐 Remote Monitoring: Transmit data to cloud services for real-time monitoring.
 - 🔋 Low-Power Operation: Powered by a 3.7V Li-Po battery for long-lasting performance.
 - ⚙️ Compact & Efficient: A simple, space-saving design using the ESP-01 module.
-
 
 # 🧰 Hardware Components 🛠️
 Here are the core components of your weather station:
@@ -27,8 +25,9 @@ Here are the core components of your weather station:
 # 📊 Circuit Diagram 🖱️
 Here’s a simple and clear circuit diagram to guide your wiring setup:
 
-<div align="center"> <img src="doc/CircuitDiagram.jpeg" width="400" alt="Weather Station Circuit Diagram" /> </div>
-
+<div align="center">
+  <img src="doc/CircuitDiagram.jpeg" width="400" alt="Weather Station Circuit Diagram" />
+</div>
 
 Wiring Overview:
 - ESP-01 to OLED: Use the SCL and SDA pins on the ESP-01 for I2C communication with the OLED.
@@ -54,6 +53,7 @@ Set up Wi-Fi credentials and any necessary cloud service APIs for data transmiss
 Use the Arduino IDE to upload the firmware to your ESP-01 module.
 5. 🎤 Power On
 Once powered on, check the OLED screen for real-time data or access the data remotely via the cloud service.
+
 # 📜 Programming the ESP-01 💻
 To program the ESP-01, you’ll need an external USB-to-serial adapter since the ESP-01 doesn’t have a built-in USB interface for flashing.
 
@@ -63,7 +63,9 @@ Steps to Flash:
 3. Upload Firmware: Use the Arduino IDE to upload your weather station code.
 4. Verify Operation: Once the firmware is uploaded, your weather station should begin working as expected.
 
-<div align="center"> <img src="doc/esp01_Programming.jpeg" width="400" alt="ESP-01 Programming" /> </div>
+<div align="center">
+  <img src="doc/esp01_Programming.jpeg" width="400" alt="ESP-01 Programming" />
+</div>
 
 # 🚀 Ready to Go!
 Once everything is set up and powered on, your Mini ESP-01 Weather Station will start collecting and displaying weather data on the OLED screen. You can also monitor it remotely via cloud services!
